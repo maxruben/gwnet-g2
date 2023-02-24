@@ -6,10 +6,10 @@
 # You can browse these options using the west targets menuconfig (terminal) or
 # guiconfig (GUI).
 
-menu "Zephyr"
-source "Kconfig.zephyr"
+menu "Common Application Framework sample"
+rsource "src/modules/Kconfig"
 endmenu
 
-module = APP
-module-str = APP
-source "subsys/logging/Kconfig.template.log_config"
+menu "Zephyr Kernel"
+source "Kconfig.zephyr"
+endmenu

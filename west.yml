@@ -3,7 +3,7 @@
 
 manifest:
   self:
-    path: gwnet-g2
+    path: example-application
     west-commands: scripts/west-commands.yml
 
   remotes:
